@@ -1,0 +1,62 @@
+[
+  {
+    "label": "Jan",
+    "ratingHigh": 64854,
+    "ratingLow": 32652
+  },
+  {
+    "label": "Feb",
+    "ratingHigh": 54628,
+    "ratingLow": 42393
+  },
+  {
+    "label": "Mar",
+    "ratingHigh": 117238,
+    "ratingLow": 50262
+  },
+  {
+    "label": "Apr",
+    "ratingHigh": 82830,
+    "ratingLow": 64731
+  },
+  {
+    "label": "May",
+    "ratingHigh": 91208,
+    "ratingLow": 41893
+  },
+  {
+    "label": "Jun",
+    "ratingHigh": 103609,
+    "ratingLow": 83809
+  },
+  {
+    "label": "Jul",
+    "ratingHigh": 90974,
+    "ratingLow": 44772
+  },
+  {
+    "label": "Aug",
+    "ratingHigh": 82919,
+    "ratingLow": 37590
+  },
+  {
+    "label": "Sep",
+    "ratingHigh": 62407,
+    "ratingLow": 43349
+  },
+  {
+    "label": "Oct",
+    "ratingHigh": 82528,
+    "ratingLow": 45324
+  },
+  {
+    "label": "Nov",
+    "ratingHigh": 56979,
+    "ratingLow": 47978
+  },
+  {
+    "label": "Dec",
+    "ratingHigh": 87436,
+    "ratingLow": 39175
+  }
+]

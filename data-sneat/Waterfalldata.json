@@ -1,0 +1,82 @@
+{
+  "title": {
+    "text": "Accumulated profit",
+    "left": "center"
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    }
+  },
+  "legend": {
+    "data": ["Expenses", "Income"],
+    "right": "20",
+    "top": "30"
+  },
+  "grid": {
+    "left": "3%",
+    "right": "4%",
+    "bottom": "3%",
+    "containLabel": true
+  },
+  "xAxis": {
+    "type": "category",
+    "data": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ]
+  },
+  "yAxis": {
+    "type": "value"
+  },
+  "series": [
+    {
+      "name": "Placeholder",
+      "type": "bar",
+      "stack": "Total",
+      "silent": true,
+      "itemStyle": {
+        "borderColor": "transparent",
+        "color": "transparent"
+      },
+      "emphasis": {
+        "itemStyle": {
+          "borderColor": "transparent",
+          "color": "transparent"
+        }
+      },
+      "data": [0, 900, 1245, 1530, 1376, 1376, 1511, 1689, 1856, 1495, 1292]
+    },
+    {
+      "name": "Income",
+      "type": "bar",
+      "stack": "Total",
+      "label": {
+        "show": true,
+        "position": "top"
+      },
+      "data": [900, 345, 393, "-", "-", 135, 178, 286, "-", "-", "-"]
+    },
+    {
+      "name": "Expenses",
+      "type": "bar",
+      "stack": "Total",
+      "label": {
+        "show": true,
+        "position": "bottom"
+      },
+      "data": ["-", "-", "-", 108, 154, "-", "-", "-", 119, 361, 203]
+    }
+  ]
+}
